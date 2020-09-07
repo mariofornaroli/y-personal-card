@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 16px;
+    background: #eee;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    max-width: 350px;
+    background-color: #232323;
+    padding: 40px 50px;
+    border-radius: 4px;
+    box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #232323;
+    box-shadow: 0 8px 55px #2889b6;
+    margin-bottom: 25px;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 100%;
+    transform: scale(1.1);
+}
+
+.full-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.posts-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.social-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-container button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #3f9eca, #16498b);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.social-container button:hover {
+    box-shadow: 0 4px 20px #2889b675;
+}
+
+.action {
+    outline: none;
+    cursor: pointer;
+    border: 4px solid #3f9eca;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin-top: 25px;
+    width: 80%;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s;
+}
+
+.action:hover {
+    background-color: #3f9eca;
+}
